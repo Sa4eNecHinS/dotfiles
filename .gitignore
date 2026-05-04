@@ -1,0 +1,53 @@
+# Игнорируем временные файлы и кэш
+pulse/
+dconf/
+uv/
+go/
+obsidian/
+*.log
+*.tmp
+
+
+
+# 1. Системные и временные файлы
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.session
+session/
+*.log
+
+# 2. IDE и Редакторы (Code - OSS, QtCreator и др.)
+.vscode/
+.idea/
+*.project
+*.settings/
+QtProject/
+QtProject.conf
+Code\ -\ OSS/
+
+# 3. Window Managers & Sessions (Hyprland, XFCE, etc.)
+# Игнорируем сессии и кэши, оставляем только конфиги
+xfce4/
+dolphinrc
+htop/
+
+# 4. Приложения (Happ, LibreOffice, Thunar и т.д.)
+Happ/
+Happ.conf
+libreoffice/
+thunar/
+gtk-3.0/bookmarks # Обычно это история, а не конфиг
+mimeapps.list # Часто генерируется системой, лучше игнорировать, если не правишь вручную
+photoflare.io/
+qalculate/
+zen/
+pgadmin4/
+nwg-displays/ # Если это не твой скрипт, а бинарь/кэш
+
+# 5. Скрипты и утилиты (если они не твои)
+wireplumber/ # Конфиги WP обычно лежат в ~/.config/wireplumber, проверь, нужно ли тебе это
+kanshi/ # Аналогично, если это не твой профиль
+

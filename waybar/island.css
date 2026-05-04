@@ -1,0 +1,49 @@
+
+/* Базовые цвета под твои обои */
+@define-color bg_island rgba(30, 30, 46, 0.7); /* Темно-черничный, прозрачный */
+@define-color border_color #6c7086;           /* Стальной серый (под броню) */
+@define-color text_color #cdd6f4;             /* Светло-серый текст */
+@define-color accent_color #f5c2e7;           /* Пыльно-розовый (под фон обоев) */
+
+#waybar {
+    background: transparent;
+    border: none;
+}
+
+/* Общий стиль для всех "островов" */
+.modules-left,
+.modules-center,
+.modules-right {
+    background-color: @bg_island;
+    border: 1px solid @border_color;
+    border-radius: 15px;
+    margin: 5px 10px;
+    padding: 2px 15px;
+    color: @text_color;
+    /* Эффект легкого свечения, как у сенсоров робота */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Примеры стилизации конкретных модулей внутри островов */
+#clock {
+    color: @accent_color;
+    font-weight: bold;
+}
+
+#cpu, #memory, #battery {
+    padding: 0 8px;
+}
+
+/* Если модули склеены, как на твоем скриншоте (backlight + audio) */
+#backlight {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    margin-right: 0;
+}
+
+#pulseaudio {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 0;
+}

@@ -29,7 +29,15 @@ font-family = JetBrains Mono
 font-size = 13
 theme = "Catppuccin Macchiato"
 # window-padding-x = 2
-#
+
+# убирает заголовок окна 
+window-decoration = false  
+
+window-padding-color = extend
+
+# вложенные окна терминала теперь находятся внизу 
+gtk-tabs-location = bottom
+
 # # Spacing around the equals sign does not matter.
 # # All of these are identical:
 # key=value
@@ -40,8 +48,12 @@ theme = "Catppuccin Macchiato"
 # # Any line beginning with a # is a comment. It's not possible to put
 # # a comment after a config option, since it would be interpreted as a
 # # part of the value. For example, this will have a value of "#123abc":
+#
+#background = "#000000"
+#palette = 0 = "#000000"
 background-opacity = 0.85
 background-blur = 20
+background-blur-radius = 20
 #
 # # Empty values are used to reset config keys to default.
 # key =
