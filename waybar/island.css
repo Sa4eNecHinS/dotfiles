@@ -1,9 +1,11 @@
 
-/* Базовые цвета под твои обои */
-@define-color bg_island rgba(30, 30, 46, 0.7); /* Темно-черничный, прозрачный */
-@define-color border_color #6c7086;           /* Стальной серый (под броню) */
-@define-color text_color #cdd6f4;             /* Светло-серый текст */
-@define-color accent_color #f5c2e7;           /* Пыльно-розовый (под фон обоев) */
+@define-color bg_island #616263; 
+/* приглушенный серый */
+@define-color border_color #555555;           
+/* кремовый оттенок */
+@define-color text_color #eaddcf;             
+/* яркий костяной */
+@define-color accent_color #fdf6e3;           
 
 #waybar {
     background: transparent;

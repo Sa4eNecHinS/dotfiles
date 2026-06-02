@@ -59,7 +59,7 @@
             "critical": 15
         },
 
-        "format-charging": "{icon}"
+        "format-charging": "{icon}  "
     },
     "clock": {
         "format": "{:%H:%M}  ",

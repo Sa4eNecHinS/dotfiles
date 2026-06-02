@@ -1,0 +1,22 @@
+# Midnight
+background = #0d0a19
+foreground = #d1d1e0
+selection-background = #2a2c49
+selection-foreground = #d1d1e0
+cursor-color = #d1d1e0
+palette = 0=#211f30
+palette = 1=#ff5577
+palette = 2=#50fa9b
+palette = 3=#f1fa9c
+palette = 4=#bd93ff
+palette = 5=#ff79d6
+palette = 6=#8be9ff
+palette = 7=#f8f8f2
+palette = 8=#6272b4
+palette = 9=#ff6e8e
+palette = 10=#69ffb4
+palette = 11=#ffffb5
+palette = 12=#d6acff
+palette = 13=#ff92e6
+palette = 14=#a4ffff
+palette = 15=#ffffff

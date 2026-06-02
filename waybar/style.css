@@ -36,7 +36,7 @@ button:hover {
 #workspaces button {
   padding: 0 5px;
   background-color: transparent;
-  color: @rosewater;
+  color: @text;
   transition: all 0.5s ease;
 
   min-width: 17px;      /* Задаем фиксированную ширину, чтобы кнопка была круглой/овальной */
@@ -49,13 +49,15 @@ button:hover {
 }
 
 #workspaces button.active {
-  background-color: @rosewater;
-  color: @base;
+  /*background-color: @rosewater;*/ 
+  background-color: #E8EAED;
+  /*color: @base;*/
+  color: #282a36;
 
   border-radius: 10px; 
   padding: 0 3px;
 
-  box-shadow: inset 0 -3px #ffffff;
+  /*box-shadow: inset 0 -3px #ffffff;*/
 }
 
 #workspaces button.urgent {
@@ -85,7 +87,7 @@ button:hover {
 #custom-power,
 #custom-weather,
 #custom-swaync {
-    background-color: @base;
+    background-color: #2D3547; 
     border-radius: 20px;
     padding: 2px 12px;
     margin: 4px 5px;
@@ -95,7 +97,7 @@ button:hover {
 .modules-right,
 .modules-left,
 .modules-center {
-  background-color: @base;
+  background-color: #2D3547; 
   border-radius: 15px;
 }
 .modules-right {
@@ -111,7 +113,7 @@ button:hover {
 }
 #battery.charging,
 #battery.plugged {
-  color: @rosewater;
+  color: #9BBFB9;
 }
 
 
