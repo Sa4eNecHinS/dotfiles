@@ -16,6 +16,11 @@ return {
             "--malloc-trim", -- принудительно возврвщаать память системе
           },
         },
+        pyright = {
+          enabled = false,
+        },
+        pylsp = {},
+        marksman = false,
       },
     },
   },

@@ -80,7 +80,6 @@ button:hover {
 #cpu,
 #memory,
 #temperature,
-#battery,
 #backlight,
 #tray,
 /* #cava, */
@@ -111,6 +110,13 @@ button:hover {
 .modules-center {
   padding: 0 10px;
 }
+
+
+#battery
+{
+  color: #9BBFB9;
+}
+
 #battery.charging,
 #battery.plugged {
   color: #9BBFB9;
