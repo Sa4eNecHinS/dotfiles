@@ -46,6 +46,12 @@ qalculate/
 zen/
 pgadmin4/
 nwg-displays/ # Если это не твой скрипт, а бинарь/кэш
+go/
+htop/
+kitty/
+OpenScad/
+uv/
+discord/
 
 # 5. Скрипты и утилиты (если они не твои)
 wireplumber/ # Конфиги WP обычно лежат в ~/.config/wireplumber, проверь, нужно ли тебе это
