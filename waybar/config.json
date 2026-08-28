@@ -3,20 +3,17 @@
     "font": "JetBrains Nerd Font 10",
     "margin": "10 8 -5 8",
     "reload_style_on_change": true,
-    "modules-left": [
-        "clock",
-        "network",
-    ],
+    //"modules-left": [
+        //"backlight",
+        //"network",
+    //],
     "modules-center": [
         "hyprland/workspaces",
-        "backlight",
-        "pulseaudio",
     ],
-    "modules-right": [
-        "group/sysstats",
-        "bluetooth", 
-        "battery",
-    ],
+    //"modules-right": [
+        //"pulseaudio",
+        //"battery",
+    //],
     "group/sysstats": {
         "orientation": "horizontal",
         "drawer": {
@@ -94,7 +91,7 @@
             "urgent": ""
         },
         "persistent-workspaces": {
-            "*": 4
+            "*": 5
         }
     },
     "pulseaudio": {

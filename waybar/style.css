@@ -86,21 +86,24 @@ button:hover {
 #custom-power,
 #custom-weather,
 #custom-swaync {
-    background-color: #2D3547; 
+    background-color: #24212B;  
     border-radius: 20px;
     padding: 2px 12px;
     margin: 4px 5px;
     color: @text;
 }
 
-.modules-right,
-.modules-left,
 .modules-center {
-  background-color: #2D3547; 
+  background-color: #24212B;   
   border-radius: 15px;
 }
+
+
+.modules-left,
 .modules-right {
-  padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  padding: 0 20px;
 }
 
 .modules-left {

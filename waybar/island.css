@@ -1,5 +1,5 @@
 
-@define-color bg_island #616263; 
+@define-color bg_island #31255f; 
 /* приглушенный серый */
 @define-color border_color #555555;           
 /* кремовый оттенок */
@@ -13,16 +13,14 @@
 }
 
 /* Общий стиль для всех "островов" */
-.modules-left,
-.modules-center,
-.modules-right {
+
+.modules-center{
     background-color: @bg_island;
     border: 1px solid @border_color;
     border-radius: 15px;
     margin: 5px 10px;
     padding: 2px 15px;
     color: @text_color;
-    /* Эффект легкого свечения, как у сенсоров робота */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
