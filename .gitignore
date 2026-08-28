@@ -56,6 +56,8 @@ vivaldi-stable.conf
 BraveSoftware/
 mimeapps.list
 gh/
+minimal-waybar-config/
+fish/
 
 # 5. Скрипты и утилиты (если они не твои)
 wireplumber/ # Конфиги WP обычно лежат в ~/.config/wireplumber, проверь, нужно ли тебе это
