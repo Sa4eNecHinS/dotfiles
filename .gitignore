@@ -34,30 +34,37 @@ xfce4/
 dolphinrc
 htop/
 
-# 4. Приложения (Happ, LibreOffice, Thunar и т.д.)
+# 4. Приложения и утилиты (не нужны в dotfiles)
+OpenSCAD/
+fish/                  # Весь fish, т.к. не используется
+kanshi/
+nwg-displays/
+nwg-look/
+qt6ct/
+wireplumber/
+wlogout/
+xsettingsd/
+Thunar/
+libreoffice/
+discord/
+BraveSoftware/
 Happ/
 Happ.conf
-libreoffice/
-thunar/
-gtk-3.0/bookmarks # Обычно это история, а не конфиг
-mimeapps.list # Часто генерируется системой, лучше игнорировать, если не правишь вручную
 photoflare.io/
 qalculate/
 zen/
 pgadmin4/
-nwg-displays/ # Если это не твой скрипт, а бинарь/кэш
+kitty/                 # Если используете ghostty, kitty не нужен
+obsidian/
+pulse/
+dconf/
+uv/
 go/
 htop/
-kitty/
-OpenScad/
-uv/
-discord/
 vivaldi-stable.conf
-BraveSoftware/
+pavucontrol.ini
 mimeapps.list
 gh/
-minimal-waybar-config/
-fish/
 
 # 5. Скрипты и утилиты (если они не твои)
 wireplumber/ # Конфиги WP обычно лежат в ~/.config/wireplumber, проверь, нужно ли тебе это
