@@ -1,0 +1,50 @@
+background = #272e33
+foreground = #EBEBE6
+selection-background = #475258
+selection-foreground = #d3c6aa
+cursor-color = #b0b0b0
+
+
+
+# Brights colors
+# black
+palette = 0=#21222c
+# red
+palette = 1=#ff5555
+# green
+palette = 2=#97D494
+# yellow
+palette = 3=#f1fa8c
+# blue
+palette = 4=#80b5e0
+# magenta
+palette = 5=#EBC5DB
+# cyan
+palette = 6=#C7F3FC
+#white
+palette = 7=#f8f8f2
+
+# bright black
+palette = 8=#6272a4
+# bright red
+palette = 9=#ff6e6e
+# green
+palette = 10=#a7c080
+# bright yellow
+palette = 11=#ffffa5
+# 12 - blue 
+palette = 12=#cbe2f5
+# bright purple
+palette = 13=#E3C1DF
+# bright cyan
+palette = 14=#a4ffff
+# bright white
+palette = 15=#ffffff
+
+
+font-size = 13
+# курсор сплошным толстым блоком 
+cursor-style = block   
+# отключение мигание курсора 
+cursor-style-blink = false  
+

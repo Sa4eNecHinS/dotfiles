@@ -1,0 +1,67 @@
+pulse/
+dconf/
+uv/
+go/
+dotfiles/
+obsidian/
+*.log
+*.tmp
+
+
+# cache
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.session
+session/
+*.log
+
+# IDE and code editors
+.idea/
+*.project
+*.settings/
+QtProject/
+QtProject.conf
+Code\ -\ OSS/
+
+xfce4/
+dolphinrc
+htop/
+
+# apss and utils
+OpenSCAD/
+fish/
+kanshi/
+nwg-displays/
+nwg-look/
+qt6ct/
+wireplumber/
+wlogout/
+xsettingsd/
+Thunar/
+libreoffice/
+discord/
+BraveSoftware/
+Happ/
+Happ.conf
+photoflare.io/
+qalculate/
+zen/
+pgadmin4/
+kitty/ 
+obsidian/
+pulse/
+dconf/
+uv/
+go/
+htop/
+vivaldi-stable.conf
+pavucontrol.ini
+mimeapps.list
+gh/
+
+# 5. Скрипты и утилиты (если они не твои)
+wireplumber/ 
+kanshi/ 

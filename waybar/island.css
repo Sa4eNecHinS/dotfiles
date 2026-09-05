@@ -1,0 +1,46 @@
+
+@define-color bg_island rgba(161, 92, 225, .1); 
+@define-color border_color rgba(161, 92, 225, .1);           
+@define-color text_color #eaddcf;             
+@define-color accent_color #fdf6e3;           
+
+#waybar {
+    background: transparent;
+    border: none;
+}
+
+/* Общий стиль для всех "островов" */
+.modules-center {
+    background-color: @bg_island;
+    border: 1px solid @border_color;
+    border-radius: 15px;
+    margin: 5px 10px;
+    padding: 2px 15px;
+    color: @text_color;
+    /* Эффект легкого свечения, как у сенсоров робота */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Примеры стилизации конкретных модулей внутри островов */
+#clock {
+    color: @accent_color;
+    font-weight: bold;
+}
+
+#cpu, #memory, #battery {
+    padding: 0 8px;
+}
+
+/* Если модули склеены, как на твоем скриншоте (backlight + audio) */
+#backlight {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+    margin-right: 0;
+}
+
+#pulseaudio {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 0;
+}

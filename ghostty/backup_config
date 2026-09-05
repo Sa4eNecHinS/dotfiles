@@ -1,0 +1,38 @@
+
+# Dracula (Muted/Тусклая версия)
+background = #282a36
+foreground = #f8f8f2
+
+selection-background = #44475a
+selection-foreground = #b0b0b0
+cursor-color = #b0b0b0
+
+# Обычные цвета (palette 0-7)
+palette = 0=#3a3c47
+palette = 1=#dd7777
+palette = 2=#abd0ab
+palette = 3=#dddd99
+palette = 4=#aaccdd
+palette = 5=#dd99dd
+palette = 6=#99dddd
+palette = 7=#d5d5d5
+
+# Яркие цвета (palette 8-15)
+palette = 8=#707070
+palette = 9=#ee9999
+# green 
+palette= 10=#7bd474
+palette = 11=#eeeebb
+palette = 12=#bbddee
+palette = 13=#eebbee
+palette = 14=#bbeeee
+palette = 15=#ffffff
+
+
+font-size = 13
+# курсор сплошным толстым блоком 
+cursor-style = block   
+# отключение мигание курсора 
+cursor-style-blink = false  
+
+
