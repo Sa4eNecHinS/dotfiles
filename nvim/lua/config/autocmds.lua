@@ -6,3 +6,16 @@
 --
 -- Or remove existing autocmds by their group name (which is prefixed with `lazyvim_` for the defaults)
 -- e.g. vim.api.nvim_del_augroup_by_name("lazyvim_wrap_spell")
+
+vim.api.nvim_create_autocmd("TermOpen", {
+  callback = function()
+    vim.opt_local.number = false
+    vim.opt_local.relativenumber = false
+
+    vim.api.nvim_set_hl(0, "WorkTerminal", {
+      bg = "#272e33",
+    })
+
+    vim.wo.winhighlight = "Normal:WorkTerminal"
+  end,
+})

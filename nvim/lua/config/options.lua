@@ -3,17 +3,18 @@
 -- Add any additional options here
 --
 vim.opt.relativenumber = false -- отключение относительных строк
-vim.opt.number = true          -- включение обычных строк
---vim.opt.shiftwidth = 4 -- Ширина отступа
---vim.opt.tabstop = 4 --  ширина символа табуляции
-vim.opt.expandtab = true -- табы -> в пробелы
+vim.opt.number = true -- включение обычных строк
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.expandtab = true
 vim.opt.spelllang = { "en", "ru" }
 vim.opt.clipboard = "unnamedplus"
-vim.cmd.colorscheme("gruvbox")
+--vim.cmd.colorscheme("gruvbox")
 
 vim.api.nvim_create_autocmd("FileType", {
-  pattern = { "markdown" },
-  callback = function()
-    vim.b.autoformat = false
-  end,
+	pattern = { "markdown" },
+	callback = function()
+		vim.b.autoformat = false
+	end,
 })

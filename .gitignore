@@ -4,6 +4,8 @@ uv/
 go/
 dotfiles/
 obsidian/
+rncbc.org/
+systemd/
 *.log
 *.tmp
 
