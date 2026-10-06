@@ -48,4 +48,5 @@ cursor-style = block
 # отключение мигание курсора 
 cursor-style-blink = false  
 
+
 keybind = ctrl+,=unbind
